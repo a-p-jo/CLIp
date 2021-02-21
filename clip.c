@@ -33,7 +33,7 @@ int main(int argc, char * argv[])
 			else
 				clip_name = SUFFIX; // if clipboard is not named, it's name IS suffix.
 
-			if(infile != NULL)
+			if(clip_name != NULL)
 			{	
 				FILE * from = fopen(clip_name,"rb");
 
