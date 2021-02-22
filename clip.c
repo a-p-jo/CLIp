@@ -15,7 +15,7 @@ int main(int argc, char * argv[])
 	  * lsblk | clip c drives          # Save output of lsblks to a clipboard named drives in cwd 
 	  * 
 	  * clip p | gzip > dmesg.zip      # Pipe default clipboard in cwd to gzip , which saves it to a .zip file
-	  * clip p drives >> drive_log.txt # Pipe clipboard named dmesg in cwd to drive_log.txt 
+	  * clip p drives >> drive_log.txt # Pipe clipboard named drives in cwd to drive_log.txt 
 	  *
 	  * clip r			   # Remove the default clipboard in the cwd
 	  * clip r drives		   # Remove the clipboard named drives in the cwd
