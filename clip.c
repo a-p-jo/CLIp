@@ -83,8 +83,8 @@ int main(int argc, char ** argv)
 
 				int status = bcp(from,stdout, argv[i],"stdout");
 				if(status) exit(status);
-				break;
 			}
+			break;
 			case 'c' : case 'C' : case 'a' : case 'A' : 		    /* Copy or append */
 			{
 				FILE * tmp = fopen(TMP_FNAME,"wb+"); 
