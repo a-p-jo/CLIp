@@ -1,4 +1,4 @@
-# CLIp v2
+# CLIp v2.1
 
 ### About
 
