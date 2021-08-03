@@ -58,7 +58,7 @@ int main(int argc, char ** argv)
 		{
 			for(int i = 2; argv[i]; i++)
 			{
-				if(strlen(argv[i]) == 0)
+				if(*argv[i] == '\0')
 					argv[i] = DEFAULT;
 			}
 		}		
