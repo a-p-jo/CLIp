@@ -8,9 +8,9 @@ Key Features : If you like these, CLIp is for you !
 - Tiny code size ( ~170 lines) and correspondingly an almost negligible level of resource consumption.
 - Not a perpetually-running daemon that grows slower and larger over time.  CLIp runs when called, does what it's told and exits.
 - No malloc calls whatsoever, and correspondingly rock-stable with no memory management bugs.
-- Infinitely many clipboards, with as much data that your disk can hold. Since clipboards stay on disk, not memory,
-they are persistent through crashes/shutdowns and do not linearly consume more memory the larger they get. Clipboards can also store
-any kind of data (won't screw up wierd, edge-case glyphs, because CLIp sees 1s and 0s, not glyphs).
+- Infinitely many clipboards, with as much data that your disk can hold, persistent through crashes/shutdowns.
+- Clipboards are files, exposing file manipulation abilities to the clipboard.
+- Clipboard data is forrmatted *exactly* as you copied it. CLIp doesn't see strange glyphs , it only sees bits & bytes.
 
 Drawbacks : If these are deal-breakers, CLIp isn't it for you :(
 - No interface with system clipboard. No plans to integrate support for this as it would considerably bloat the program, and there's plenty of those out there.
